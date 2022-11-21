@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_user</name>
+   <name>btn_myinfo</name>
    <tag></tag>
-   <elementGuidId>112735ab-dad2-43cf-8dbe-d48be072aa57</elementGuidId>
+   <elementGuidId>920145d0-5f4b-4871-ae19-81f86bf97b51</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;app&quot;]/div[1]/div[1]/header/div[1]/div[2]/ul/li/span/i</value>
+         <value>//*[(text() = 'My Info' or . = 'My Info')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,9 +15,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>text</name>
       <type>Main</type>
-      <value>//*[@id=&quot;app&quot;]/div[1]/div[1]/header/div[1]/div[2]/ul/li/span/i</value>
-      <webElementGuid>d88ca812-f95d-45bd-b19c-75adcddd981a</webElementGuid>
+      <value>My Info</value>
+      <webElementGuid>377e8463-352e-4784-b354-141f5c6783ff</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

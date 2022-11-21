@@ -17,27 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Recruitment-AddVacancies/btn_recruitment'))
+WebUI.click(findTestObject('MyInfo/MyInfo-ChangeProfilePicture/btn_myinfo'))
 
-WebUI.click(findTestObject('Recruitment-AddVacancies/btn_vacancies'))
+WebUI.click(findTestObject('MyInfo/MyInfo-ChangeProfilePicture/img_profilepicture'))
 
-WebUI.click(findTestObject('Recruitment-AddVacancies/btn_add'))
+WebUI.delay(10)
 
-WebUI.setText(findTestObject('Recruitment-AddVacancies/field_vacancyname'), 'Intern QA')
+CustomKeywords.'uploadfoto.upload_file.uploadFile'(findTestObject('MyInfo/MyInfo-ChangeProfilePicture/btn_add'), 'C:\\Users\\Prestige\\Pictures\\foto.png')
 
-WebUI.click(findTestObject('Recruitment-AddVacancies/slc_jobtitle'))
+WebUI.delay(10)
 
-WebUI.click(findTestObject('Recruitment-AddVacancies/slc_qaengineer'))
+WebUI.click(findTestObject('MyInfo/MyInfo-ChangeProfilePicture/btn_save'))
 
-WebUI.setText(findTestObject('Recruitment-AddVacancies/field_description'), 'Intern')
+WebUI.delay(3)
 
-WebUI.setText(findTestObject('Recruitment-AddVacancies/filed_hiringmanager'), 'Paul Collings')
+WebUI.click(findTestObject('MyInfo/MyInfo-ChangeProfilePicture/btn_dashboard'))
 
-WebUI.setText(findTestObject('Recruitment-AddVacancies/field_numberofpositions'), '3')
-
-WebUI.click(findTestObject('Recruitment-AddVacancies/btn_save'))
-
-WebUI.click(findTestObject('Recruitment-AddVacancies/btn_vacancies'))
-
-WebUI.click(findTestObject('Recruitment-AddVacancies/btn_dashboard'))
+WebUI.delay(15)
 

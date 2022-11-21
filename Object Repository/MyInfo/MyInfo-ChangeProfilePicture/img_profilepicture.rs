@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_user</name>
+   <name>img_profilepicture</name>
    <tag></tag>
-   <elementGuidId>112735ab-dad2-43cf-8dbe-d48be072aa57</elementGuidId>
+   <elementGuidId>9df732bb-5485-46cc-84c5-6380199ddd99</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;app&quot;]/div[1]/div[1]/header/div[1]/div[2]/ul/li/span/i</value>
+         <value>//*[@id=&quot;app&quot;]/div[1]/div[2]/div[2]/div/div/div/div[1]/div[1]/div[2]/div/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;app&quot;]/div[1]/div[1]/header/div[1]/div[2]/ul/li/span/i</value>
-      <webElementGuid>d88ca812-f95d-45bd-b19c-75adcddd981a</webElementGuid>
+      <value>//*[@id=&quot;app&quot;]/div[1]/div[2]/div[2]/div/div/div/div[1]/div[1]/div[2]/div/img</value>
+      <webElementGuid>7c67937e-51be-4e9a-a549-7a85956fa89d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

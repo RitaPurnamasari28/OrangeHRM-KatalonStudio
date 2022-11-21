@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>filed_hiringmanager</name>
+   <name>field_hiringmanager</name>
    <tag></tag>
    <elementGuidId>0391f5a8-76d2-400b-8ffc-6b5519483bef</elementGuidId>
    <selectorCollection>

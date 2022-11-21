@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_user</name>
+   <name>btn_dashboard</name>
    <tag></tag>
-   <elementGuidId>112735ab-dad2-43cf-8dbe-d48be072aa57</elementGuidId>
+   <elementGuidId>c18efed2-57f0-47bb-b54b-978c21e0ab6c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;app&quot;]/div[1]/div[1]/header/div[1]/div[2]/ul/li/span/i</value>
+         <value>//*[(text() = 'Dashboard' or . = 'Dashboard')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,9 +15,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>text</name>
       <type>Main</type>
-      <value>//*[@id=&quot;app&quot;]/div[1]/div[1]/header/div[1]/div[2]/ul/li/span/i</value>
-      <webElementGuid>d88ca812-f95d-45bd-b19c-75adcddd981a</webElementGuid>
+      <value>Dashboard</value>
+      <webElementGuid>72829744-8f46-44e0-af06-5792fa4b1ce0</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

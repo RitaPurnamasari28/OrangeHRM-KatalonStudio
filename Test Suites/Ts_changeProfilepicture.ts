@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>AllTC</name>
+   <name>Ts_changeProfilepicture</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,23 +10,23 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>52b02369-576f-4e8e-988c-ead0bb421b4b</testSuiteGuid>
+   <testSuiteGuid>c447bf8e-0d22-4f26-9e29-151f677dfc1f</testSuiteGuid>
    <testCaseLink>
-      <guid>26f82882-c9b7-46d1-ae89-4edbc05b0f06</guid>
+      <guid>22eb9f6c-6161-4521-b3b9-c70ea4d373f6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login/TC_login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>39273e41-1f5e-452e-ab1e-1bed706e6ac1</guid>
+      <guid>8a9666f9-4c9b-41a6-8aae-d4a48d280bbd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Recruitment/Recruitment-AddVacancies/TC_AddVacancies</testCaseId>
+      <testCaseId>Test Cases/MyInfo/MyInfo-ChangeProfilePicture/TC_changeprofilepicture</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>81168da2-fe6b-43d7-881f-eabd1f215ba9</guid>
+      <guid>b292e260-9006-4404-8cbe-2cbf38951a68</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Logout/TC_logout</testCaseId>
